@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil - Zagro</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+        body { font-family: 'Montserrat', sans-serif; background-color: #121212; color: white; text-align: center; }
+    </style>
+    <link rel="stylesheet" href="css/styless.css">
+</head>
+<body>
+    <div class="profile-card">
+        <h1 style="color: rgb(0, 89, 255);">¡Hola, soy Zagro de los Santos Enanos!</h1>
+        <img src="img/avatar.png" alt="Mi Avatar" class="avatar">
+        <p>Este es mi perfil ficticio, creado con HTML y CSS, Gracias a este cuestionario puedes ponerte en contacto conmigo y contestarme las siguientes preguntas</p>
+        <form>
+            <label for="name">¿Como te llamas?</label>
+            <input type="text" id="name" name="name" placeholder="Tu pseudónimo" required>
+            <label for="email">Correo electronico para ponerme en contacto contigo</label>
+            <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+            <label for="message">¿Que quieres contarme?</label>
+            <textarea id="message" name="message" placeholder="mensaje..."></textarea><label for="name">¿Como te llamas?</label>
+            <label for="name">¿Algun otro metodo de contacto?</label>
+            <input type="text" id="name" name="name" placeholder="teléfono, dirección postal,etc..." required>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
